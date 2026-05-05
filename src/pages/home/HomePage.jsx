@@ -1,9 +1,9 @@
-import Index from "../../modules/home"
+import Index from "../../modules/home/Index"
 
 function HomePage() {
   return (
     <>
-        <Index />
+      <Index />
     </>
   )
 }
