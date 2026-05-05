@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* hero section medical word text */
+.my-color{
+    color: rgba(226, 226, 226, 0.212);
+}
+
+
+/* maddical solution section 3rd section */
+
+/* left side one image for background  */
+.my-sec-bg{
+    background-image: url('/images/madicalSolutions3.jpg   ');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 55px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    border-radius: 10px;
+    height: 600px;
+}
+
+
+@media (max-width:670px) {
+    .my-height{
+        height: 1750px;
+    }
+}
+@media (min-width:671px) and (max-width:1024px) {
+    .my-sec-bg{
+        margin-top: 8px;
+        padding-top: 170px;
+        padding-bottom: 170px;
+    }
+}
+@media (min-width:1024px) and (max-width:1440px) {
+    .my-height{
+        height: 1000px;
+    }
+}
+ @media (min-width:1441px) and (max-width:2000px) {
+    .my-height{
+        height: 1100px;
+    }
+} 
+@media (min-width:2001px) {
+    .my-height{
+        height: 1200px;
+    }
+}
+.my-shadow{
+    box-shadow: 0 0 0 12px rgba(255, 255, 255, 0.6);
+}
+
+
+
+@keyframes fadeUp {
+  0% { opacity: 0; transform: translateY(40px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeUp {
+  animation: fadeUp 0.6s forwards;
+}
+
